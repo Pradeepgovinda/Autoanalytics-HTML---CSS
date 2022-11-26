@@ -1,0 +1,27 @@
+@media only screen and (max-width: 900px) {
+  .b-circle {
+    /* padding-right: 50px; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* padding: 10px; */
+    background: #E3E3E3;
+    border: 7px solid #707070;
+    color: #8AC62B;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    padding-top: 24px;
+  }
+}
+h1.b-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* padding: 10px; */
+  background: #E3E3E3;
+  border: 7px solid #707070;
+  color: #2BC62B;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  padding-top: 24px;
+}/*# sourceMappingURL=forty.css.map */

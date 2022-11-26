@@ -1,0 +1,27 @@
+.circle-grade {
+  color: #6E6E6E;
+}
+
+h1.c-circle-grade {
+  /* padding-right: 50px; */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* padding: 10px; */
+  background: #E3E3E3;
+  border: 7px solid #707070;
+  color: #F7BE00;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  padding-top: 24px;
+}
+
+span.online {
+  border: 2px solid #0d0c0c;
+  padding: 0px;
+  border-radius: 12px;
+  background: rgba(253, 217, 185, 0.8588235294);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=grade.css.map */

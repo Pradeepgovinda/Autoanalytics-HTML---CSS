@@ -1,0 +1,226 @@
+#root {
+    background: #fbfbfb;
+
+    body {
+        background-color: #6A6A6A;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+// @import url("./log.scss");
+@import url("/css/login.scss");
+@import url("/css/signin.scss");
+@import url("/css/day21.scss");
+@import url("/css/forty.scss");
+@import url("/css/sixty.scss");
+@import url("/css/hundred.scss");
+@import url("/css/grade.scss");
+
+
+@font-face {
+    font-family: "Helvetica Neue, Bold";
+    src: url('/fonts/HelveticaNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Helvetica Neue, Medium";
+    src: url("/fonts/HelveticaNeue-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue, Condensed";
+    src: url("/fonts/HelveticaNeue-Condensed.ttf");
+}
+
+
+
+
+@media (min-width: 992px) {
+    main {
+        padding-left: 240px;
+    }
+}
+
+
+
+.sidebar {
+
+    /* Sidebar */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+
+    /* Height of navbar */
+    width: 240px;
+    z-index: 600;
+
+    /* Navbar edit */
+    background-color: #6A6A6A;
+    padding-top: inherit;
+    color: #fbfbfb;
+    font-family: "Helvetica Neue, Bold";
+    font-size: 13px;
+
+    ul .list-group-item .text-reset:hover {
+        text-decoration: underline;
+        text-decoration-color: #d84e45;
+        text-decoration-thickness: 2px;
+    }
+
+    .list-group-item a:hover {
+        color: #d84e45;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #sidebarMenu .navbar-brand img {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #sidebarMenu .position-sticky li {
+        padding-left: 30px;
+    }
+}
+
+
+.sidebar .navbar-brand {
+    padding-left: 2.8em;
+
+    img {
+        // padding-left: 70px;
+        width: 60%;
+    }
+
+}
+
+
+
+#mainNavbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: none;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(255, 254, 254);
+
+}
+
+
+.vehicles .online-vehicle {
+    font-family: 'Helvetica Neue, Bold';
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 8px;
+
+    .vehicle-one {
+        margin: 0;
+    }
+
+    .percent {
+        color: #00c851;
+        font-size: .5em;
+        position: absolute;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+
+    .mom {
+        color: #00c851;
+        font-size: .5em;
+        position: absolute;
+        padding-top: 11px;
+        padding-left: 3px;
+    }
+}
+
+
+.vehicles .online-vehicle .stock {
+    font-family: 'Helvetica Neue, Bold';
+    text-align: initial;
+    padding-left: 25px;
+    padding-top: 20px;
+
+    .stock-one {
+        margin: 0;
+    }
+    
+}
+
+
+.vehicle-details {
+    background: #F7F7F7;
+
+    .vehicle-list {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        border: 2px solid rgb(238, 237, 237);
+        background: white;
+        text-align: left;
+        border-radius: 12px;
+        // padding: 1.6em;
+    }
+}
+
+
+.vehicle-details .vehicle-list {
+
+    .item-name {
+        font-family: 'Helvetica Neue, Medium';
+        font-size: 1.1em;
+        color: #000000CC;
+    }
+
+    .item-model {
+        font-family: 'Helvetica Neue, Regular';
+        font-size: 1em;
+        color: #000000CC;
+    }
+
+    .item-sell {
+        font-family: 'Helvetica Neue, Bold';
+        font-size: .8em;
+        color: #000000CC;
+    }
+
+    .item-price {
+        font-family: 'Helvetica Neue, Condensed';
+        font-size: .7em;
+        color: #000000CC;
+    }
+
+    .items {
+        align-self: center;
+    }
+
+    .vehicle-image {
+        width: auto;
+    }
+
+}
